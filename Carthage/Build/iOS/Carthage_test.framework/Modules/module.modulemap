@@ -1,0 +1,11 @@
+framework module Carthage_test {
+  umbrella header "Carthage_test.h"
+
+  export *
+  module * { export * }
+}
+
+module Carthage_test.Swift {
+    header "Carthage_test-Swift.h"
+    requires objc
+}
